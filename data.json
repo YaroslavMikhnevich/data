@@ -1,13 +1,13 @@
 [{
 "name":"Yaroslav",
-password:'123456',
-gmail: 'yar@gmail.com',
-status:'admin'
+"password":"123456",
+"gmail": "yar@gmail.com",
+"status":"admin"
 }, 
 {
-    name:'Sash',
-    password:'123',
-    gmail: 'sash@gmail.com',
-    status:'client'
-    }
+    "name":"Sasha",
+"password":"123",
+"gmail": "sash@gmail.com",
+"status":"client"
+}
 ]
