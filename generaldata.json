@@ -177,7 +177,11 @@
       "descriptionENG": "Kherson is a city in the south of Ukraine, the administrative center of the Kherson region. It is located on the right high bank of the Dnieper. The population as of January 1, 2022 is 279,131 people. An important economic center of southern Ukraine. A significant railway hub, sea trade port, river port."
   }
 ], 
-"languages": [
+"languages": [       
+        {
+            "language": "English", 
+            "flag": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/640px-Flag_of_the_United_Kingdom.svg.png", 
+        }, 
         {
             "language": "Ukrainian", 
             "flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1200px-Flag_of_Ukraine.svg.png", 
