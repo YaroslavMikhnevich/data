@@ -1,37 +1,179 @@
 {
-    "Andorra": {
-      "flag": "🇦🇩",
-      "code": "AD"
-    },
-    "United Arab Emirates": {
-      "flag": "🇦🇪",
-      "code": "AE"
-    },
-    "Afghanistan": {
-      "flag": "🇦🇫",
-      "code": "AF"
-    },
-    "Antigua and Barbuda": {
-      "flag": "🇦🇬",
-      "code": "AG"
-    },
-    "Anguilla": {
-      "flag": "🇦🇮",
-      "code": "AI"
-    },
-    "Albania": {
-      "flag": "🇦🇱",
-      "code": "AL"
-    },
-    "Armenia": {
-      "flag": "🇦🇲",
-      "code": "AM"
-    },
-    "Angola": {
-      "flag": "🇦🇴",
-      "code": "AO"
-    },
-    "Smth":{
-        "flag": "Шо ти та бля?"
-    }
-}
+  "cities" : [
+  {
+      "cityUA": "Київ",
+      "cityENG": "Kyiv",
+      "id": "kyiv",
+      "src": "https://city-afisha.kiev.ua/wp-content/uploads/2021/06/kiiv-afisha.jpeg",
+      "descriptionUA": "Ки́їв — столиця та найбільше місто України, одне з найбільших і найстаріших міст Європи. Розташований у середній течії Дніпра, у північній Наддніпрянщині. Політичний, соціально-економічний, транспортний, освітньо-науковий, історичний, культурний та духовний центр України.",
+      "descriptionENG": "Kyiv is the capital and largest city of Ukraine, one of the largest and oldest cities in Europe. It is located in the middle course of the Dnieper, in the northern Dnipro region. Political, socio-economic, transport, educational-scientific, historical, cultural and spiritual center of Ukraine."
+  },
+  {
+      "cityUA": "Львів",
+      "cityENG": "Lviv",
+      "id": "lviv",
+      "src": "https://www.wilsoncenter.org/sites/default/files/styles/embed_text_block/public/media/uploads/images/shutterstock_787563484_0.jpg",
+      "descriptionUA": "Львів — місто в Україні, адміністративний центр області, агломерації, району, міської громади, національно-культурний та освітньо-науковий осередок країни, великий промисловий центр і транспортний вузол, вважається столицею Галичини та центром Західної України. За кількістю населення — сьоме місто країни.",
+      "descriptionENG": "Lviv is a city in Ukraine, the administrative center of a region, agglomeration, district, urban community, a national-cultural and educational-scientific center of the country, a large industrial center and a transport hub, it is considered the capital of Galicia and the center of Western Ukraine. It is the seventh city in the country in terms of population."
+  },
+  {
+      "cityUA": "Дніпро",
+      "cityENG": "Dnipro",
+      "id": "dnipro",
+      "src": "https://tickikids.ams3.cdn.digitaloceanspaces.com/z1.cache/gallery/organizations/5258/image_5b8d13d8823a85.30805883.jpg",
+      "descriptionUA": "Дніпро́ — місто в Україні на обох берегах р. Дніпро, адміністративний центр Дніпропетровської області, Дніпровського району та Дніпровської міської громади. Місто є четвертим за чисельністю населення в Україні після Києва, Харкова та Одеси. Великий науковий, дослідницький та інноваційний центр.",
+      "descriptionENG": "Dnipro is a city in Ukraine on both banks of the Dnipro River, the administrative center of Dnipropetrovsk Oblast, Dnipro District and Dnipro Urban Community. The city is the fourth most populous in Ukraine after Kyiv, Kharkiv and Odesa. A large scientific, research and innovation center."
+  },
+  {
+      "cityUA": "Харків",
+      "cityENG": "Kharkiv",
+      "id": "kharkiv",
+      "src": "https://www.dobovo.com/blog/wp-content/uploads/2017/07/%D0%95%D0%B4%D0%B5%D0%BC-%D0%B2-%D0%A5%D0%B0%D1%80%D1%8C%D0%BA%D0%BE%D0%B2-%D1%82%D0%BE%D0%BF-10-%D0%BC%D0%B5%D1%81%D1%82-825x510.jpg",
+      "descriptionUA": "Ха́рків — місто України. Розташоване на північному сході України на Слобожанщині, науковий центр України, адміністративний центр Харківської області. Друге за кількістю мешканців місто України з населенням 1 421 125 осіб. Площа міста — 350 км².",
+      "descriptionENG": "Kharkiv is a city of Ukraine. It is located in the north-east of Ukraine in the Slobozhan region, the scientific center of Ukraine, the administrative center of the Kharkiv region. The second most populous city of Ukraine with a population of 1,421,125 people. The area of the city is 350 km²."
+  },
+  {
+      "cityUA": "Івано-Франківськ",
+      "cityENG": "Ivano-Frankivsk",
+      "id": "ivano-frankivsk",
+      "src": "https://ukr-prokat.com/wp-content/uploads/2020/08/ivano-frankivsk.jpg",
+      "descriptionUA": "Іва́но-Франкі́вськ — місто в Україні, обласний центр Івано-Франківської області, економічний і культурний центр Прикарпаття. Один із трьох головних центрів історико-географічного регіону Галичина. Назване 1962 року на честь Івана Франка.",
+      "descriptionENG": "Ivano-Frankivsk is a city in Ukraine, the regional center of Ivano-Frankivsk Oblast, the economic and cultural center of Prykarpattia. One of the three main centers of the historical and geographical region of Galicia. Named in 1962 in honor of Ivan Franko."
+  },
+  {
+      "cityUA": "Тернопіль",
+      "cityENG": "Ternopyl",
+      "id": "ternopyl",
+      "src": "https://zz.te.ua/wp-content/uploads/2022/04/0_img-201027-2107472112.jpg",
+      "descriptionUA": "Терно́піль — місто в Україні, політико-адміністративний, економіко-діловий, релігійний та культурний центр Тернопільської області. Один із трьох головних центрів історико-географічного регіону Галичина. Головне місто Галицького Поділля. Тернопіль розташований на берегах річки Серет.",
+      "descriptionENG": "Ternopil is a city in Ukraine, the political-administrative, economic-business, religious and cultural center of the Ternopil region. One of the three main centers of the historical and geographical region of Galicia. The main city of Halytskyi Podillia. Ternopil is located on the banks of the Seret River."
+  },
+  {
+      "cityUA": "Вінниця",
+      "cityENG": "Vinnytsa",
+      "id": "vinnytsa",
+      "src": "https://tamtour.com.ua/local/image/440/009/ua241.jpg",
+      "descriptionUA": "Ві́нниця — місто на берегах Південного Бугу, адміністративний центр Вінницької області, Вінницького району, значний історичний осередок східного Поділля, центр Вінницької агломерації.",
+      "descriptionENG": "Vinnytsia is a city on the banks of the Southern Bug, the administrative center of Vinnytsia region, Vinnytsia district, an important historical center of eastern Podillia, the center of the Vinnytsia agglomeration."
+  },
+  {
+      "cityUA": "Запоріжжя",
+      "cityENG": "Zaporizya",
+      "id": "zaporizya",
+      "src": "https://sich.zp.ua/wp-content/uploads/2019/10/prospekt-sobornyj.jpg",
+      "descriptionUA": "Запорі́жжя — місто в Україні, адміністративний центр Запорізької області. За кількістю населення — шосте місто країни.",
+      "descriptionENG": "Zaporizhzhia is a city in Ukraine, the administrative center of the Zaporizhzhia region. It is the sixth largest city in the country in terms of population."
+  },
+  {
+      "cityUA": "Хмельницький",
+      "cityENG": "Khmelnitskiy",
+      "id": "khmelnitskiy",
+      "src": "https://novynarnia.com/wp-content/uploads/2021/04/misto-khmelnytskyj.jpg",
+      "descriptionUA": "Хмельни́цький — місто в Україні, адміністративний центр Хмельницької області і Хмельницького району, сучасний економічний і культурний центр Поділля. Чисельність населення 274 452 особи. Місто розташоване на берегах Південного Бугу, за 376 км від Києва. Залізничний вузол.",
+      "descriptionENG": "Khmelnytskyi is a city in Ukraine, the administrative center of Khmelnytskyi Oblast and Khmelnytskyi District, the modern economic and cultural center of Podillia. The population is 274,452. The city is located on the banks of the Southern Bug, 376 km from Kyiv. Railway junction."
+  },
+  {
+      "cityUA": "Одеса",
+      "cityENG": "Odesa",
+      "id": "odesa",
+      "src": "https://www.dobovo.com/blog/wp-content/uploads/2021/08/odessa_0-825x510.jpeg",
+      "descriptionUA": "Оде́са — місто в Україні, Одеська область, Одеський район. Адміністративний центр області та району. Третє найбільше місто країни після Києва та Харкова. Розташоване на узбережжі Чорного моря. Найбільший морський торговий порт держави. Культурно-освітній, туристичний, торговий, транспортний центр.",
+      "descriptionENG": "Odesa is a city in Ukraine, Odesa region, Odesa district. Administrative center of the region and district. The third largest city in the country after Kyiv and Kharkiv. Located on the coast of the Black Sea. The largest sea trade port of the state. Cultural and educational, tourist, trade, transport center."
+  },
+  {
+      "cityUA": "Луцьк",
+      "cityENG": "Lutsk",
+      "id": "lutsk",
+      "src": "https://12kanal.com/wp-content/uploads/2019/05/Bezymyannyj-3.png",
+      "descriptionUA": "Луцьк — місто обласного значення на заході України, адміністративний центр Волинської області та Луцького району. Історичний, релігійний, політичний, освітній, промисловий та економічний центр Волині.",
+      "descriptionENG": "Lutsk is a city of regional significance in the west of Ukraine, the administrative center of Volyn Oblast and Lutsk District. The historical, religious, political, educational, industrial and economic center of Volyn."
+  },
+  {
+      "cityUA": "Черкаси",
+      "cityENG": "Cherkassy",
+      "id": "cherkassy",
+      "src": "https://krot.info/uploads/posts/2021-12/1638948350_1-krot-info-p-cherkassi-gorod-dostoprimechatelnosti-kras-1.jpg",
+      "descriptionUA": "Черка́си — місто, обласний і районний центр в Україні, центр Черкаської міської громади, промисловий центр Центрального економічного району, значний культурний та освітній осередок. Відоме з XIII століття і за час свого існування відіграло певну роль в історії всієї України.",
+      "descriptionENG": "Cherkasy is a city, regional and district center in Ukraine, the center of the Cherkasy urban community, the industrial center of the Central Economic District, an important cultural and educational center. It has been known since the 13th century and during its existence played a certain role in the history of the whole of Ukraine."
+  },
+  {
+      "cityUA": "Полтава",
+      "cityENG": "Poltava",
+      "id": "poltava",
+      "src": "https://planetofhotels.com/guide/sites/default/files/styles/big_gallery_image/public/text_gallery/poltava-3.jpg",
+      "descriptionUA": "Полта́ва — місто обласного значення в Україні, адміністративний центр Полтавської області. Історичне населене місце. Полтава — важливий культурний центр, великий транспортний вузол. Площа міста — 112,52 км.кв., адміністративно місто розділене на 3 райони: Шевченківський, Київський і Подільський.",
+      "descriptionENG": "Poltava is a city of regional significance in Ukraine, the administrative center of the Poltava region. Historical settlement. Poltava is an important cultural center, a major transport hub. The area of the city is 112.52 square kilometers, administratively the city is divided into 3 districts: Shevchenkivskyi, Kyivskyi and Podilskyi."
+  },
+  {
+      "cityUA": "Рівне",
+      "cityENG": "Rivne",
+      "id": "rivne",
+      "src": "https://st4.depositphotos.com/2256637/26635/i/600/depositphotos_266354540-stock-photo-the-evening-view-of-the.jpg",
+      "descriptionUA": "Рі́вне — місто в Україні, обласний центр Рівненської області, центр Рівненського району і Рівненської громади. Населення: 243 934 мешканці. Машинобудування, хімічна, легка, харчова промисловість, торфова промисловість. Три виші, два театри. Історико-краєзнавчий музей.",
+      "descriptionENG": "Rivne is a city in Ukraine, the regional center of the Rivne region, the center of the Rivne district and the Rivne community. Population: 243,934 inhabitants. Mechanical engineering, chemical, light, food industry, peat industry. Three universities, two theaters. Historical and local history museum. Assumption wooden church. Known since 1283."
+  },
+  {
+      "cityUA": "Кропивницький",
+      "cityENG": "Kropyvnytskyi",
+      "id": "kropyvnytskyi",
+      "src": "https://wiki.cuspu.edu.ua/images/2/20/%D0%9C%D1%96%D1%81%D1%82%D0%BE.jpeg",
+      "descriptionUA": "Кропивни́цький — адміністративний центр Кіровоградської області та Кропивницького району; промисловий і культурний осередок у центрі країни; вузол автошляхів, залізнична станція. Чисельність населення станом на 1 січня 2022 року становить 219 675 осіб.",
+      "descriptionENG": "Kropyvnytskyi is the administrative center of Kirovohrad Oblast and Kropyvnytskyi District; an industrial and cultural center in the center of the country; highway junction, railway station. The population as of January 1, 2022 is 219,675 people."
+  },
+  {
+      "cityUA": "Чернівці",
+      "cityENG": "Chernivtsi",
+      "id": "chernivtsi",
+      "src": "https://ua.igotoworld.com/frontend/webcontent/websites/1/images/gallery/3591_800x600_chernovcy-univer.jpg",
+      "descriptionUA": "Чернівці́ — адміністративний, політичний і релігійний центр Чернівецької області, важливий культурний та науково-освітній осередок України. Місто розміщене на південному заході України за 40 км від румунського кордону. Чисельність населення міста становить 264,3 тис. осіб. Територія Чернівців становить 153 км².",
+      "descriptionENG": "Chernivtsi is the administrative, political and religious center of Chernivtsi region, an important cultural and scientific and educational center of Ukraine. The city is located in the south-west of Ukraine, 40 km from the Romanian border. The population of the city is 264.3 thousand people. The territory of Chernivtsi is 153 km²."
+  },
+  {
+      "cityUA": "Житомир",
+      "cityENG": "Zhytomyr",
+      "id": "zhytomyr",
+      "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnA833R3JGSHLu9iOZWmBXV2aS7fCgRH00Cg&usqp=CAU",
+      "descriptionUA": "Жито́мир — місто на півночі України, розташоване на річці Тетерів. Адміністративний центр Житомирської області та Житомирського району, центр Житомирської міської обєднаної територіальної громади. Населення міста — 261,6 тис. осіб, територія — 6500 га. Місто поділяється на Богунський та Корольовський райони",
+      "descriptionENG": "Zhytomyr is a city in the north of Ukraine, located on the Teteriv River. Administrative center of Zhytomyr Region and Zhytomyr District, center of Zhytomyr City United Territorial Community. The population of the city is 261,600 people, the territory is 6,500 hectares. The city is divided into Bohunskyi and Korolevskyi districts"
+  },
+  {
+      "cityUA": "Миколаїв",
+      "cityENG": "Mykolayiv",
+      "id": "mykolayiv",
+      "src": "https://news.pn/photo/f9cb1955d54e45af530327f426e72353.i750x400x508.jpeg",
+      "descriptionUA": "Микола́їв — місто в Україні, обласний центр Миколаївської області та адміністративний центр Миколаївського району. Миколаїв розташований у гирлі річки Інгул, де вона впадає до Південного Бугу, за 65 кілометрів від Чорного моря. Девяте за кількістю мешканців місто України з населенням 470 011 осіб.",
+      "descriptionENG": "Mykolaiv is a city in Ukraine, the regional center of Mykolaiv region and the administrative center of Mykolaiv district. Mykolaiv is located at the mouth of the Ingul River, where it flows into the Southern Bug, 65 kilometers from the Black Sea. The ninth most populous city of Ukraine with a population of 470,011 people."
+  },
+  {
+      "cityUA": "Чернігів",
+      "cityENG": "Chernihiv",
+      "id": "chernihiv",
+      "src": "https://cheline.com.ua/wp-content/uploads/2020/09/3c81991c954f02b01f7a904b478f521e-medium66-e1600434650281.jpg",
+      "descriptionUA": "Черні́гів — місто України, обласний центр Чернігівської області. Одне з найдавніших міст України, засноване в кінці VII століття при впаданні річки Стрижень у Десну.",
+      "descriptionENG": "Chernihiv is a city of Ukraine, the regional center of Chernihiv region. One of the oldest cities of Ukraine, founded at the end of the 7th century at the confluence of the Stryzhen River into the Desna."
+  },
+  {
+      "cityUA": "Суми",
+      "cityENG": "Sumy",
+      "id": "sumy",
+      "src": "https://visit.sumy.ua/wp-content/uploads/2019/06/58994388_445155252899242_8952630050272837632_o.jpg",
+      "descriptionUA": "Су́ми — місто обласного значення в північно-східній частині України, на Слобожанщині, адміністративний центр Сумської міської громади, Сумського району і Сумської області. Місто лежить на берегах річки Псел при впадінні до неї річки Сумки. Населення міста становить 256,5 тис. осіб, площа — 95,4 км².",
+      "descriptionENG": "Sumy is a city of regional significance in the north-eastern part of Ukraine, in the Slobozhan Oblast, the administrative center of the Sumy urban community, Sumy district and Sumy region. The city lies on the banks of the Psel River at the confluence of the Sumky River. The population of the city is 256.5 thousand people, the area is 95.4 km²."
+  },
+  {
+      "cityUA":"Ужгород",
+      "cityENG": "Uzhhorod",
+      "id": "uzhhorod",
+      "src": "https://karpaty.love/uploads/posts/2018-02/1519664945_uzhhorod-zamok-panorama.jpg",
+      "descriptionUA": "У́жгород — місто на річці Уж в Закарпатській області України, центр Ужгородської міської громади та Ужгородського району. Розташоване за 811 км від Києва, на кордоні зі Словаччиною. Місто біля підніжжя Карпат є найменшим обласним центром країни, проте має багату й давню історію. Засноване у IX столітті.",
+      "descriptionENG": "Uzhhorod is a city on the Uzh River in the Transcarpathian region of Ukraine, the center of the Uzhhorod urban community and the Uzhhorod district. Located 811 km from Kyiv, on the border with Slovakia. The city at the foot of the Carpathians is the smallest regional center of the country, but it has a rich and ancient history. Founded in the 9th century."
+  },
+  {
+      "cityUA": "Херсон",
+      "cityENG": "Kherson",
+      "id": "kherson",
+      "src": "https://cdn.abo.media/upload/article/o_1gemmkrk7106r1jhq1q6217unaqi1k.jpg",
+      "descriptionUA": "Херсо́н — місто на півдні України, адміністративний центр Херсонської області. Розташоване на правому високому березі Дніпра. Чисельність населення станом на 1 січня 2022 року — 279 131 осіб. Важливий економічний центр півдня України. Значний залізничний вузол, морський торговельний порт, річковий порт." ,
+      "descriptionENG": "Kherson is a city in the south of Ukraine, the administrative center of the Kherson region. It is located on the right high bank of the Dnieper. The population as of January 1, 2022 is 279,131 people. An important economic center of southern Ukraine. A significant railway hub, sea trade port, river port."
+  }
+]}
