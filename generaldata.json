@@ -179,5 +179,39 @@
     
 ], 
   
-  "languages" : {"language": "Ukrainian", "src": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/640px-Flag_of_the_United_Kingdom.svg.png"}
+  "languages" : [
+  {
+            "language": "English", 
+            "src": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/640px-Flag_of_the_United_Kingdom.svg.png", 
+        }, 
+        {
+            "language": "Ukrainian", 
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/1200px-Flag_of_Ukraine.svg.png", 
+        }, 
+        {
+            "language": "Spanish", 
+            "src": "https://www.sdgcounties.ca/sites/default/files/styles/medium/public/2022-03/Flag_of_Ukraine.svg_.png?itok=iNoFhaBZ", 
+        }, 
+        {
+            "language": "Italian", 
+            "src": "https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/255px-Flag_of_Italy.svg.png", 
+        }, 
+        {
+            "language": "German", 
+            "src": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png", 
+        }, 
+        {
+            "language": "Hindi", 
+            "src": "https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png", 
+        },
+        {
+            "language": "Arabic", 
+            "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Arabic-Language-Flag.svg/2560px-Arabic-Language-Flag.svg.png", 
+        },
+            {
+            "language": "Japanese", 
+            "src": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png", 
+        }
+  ]
+
 }
